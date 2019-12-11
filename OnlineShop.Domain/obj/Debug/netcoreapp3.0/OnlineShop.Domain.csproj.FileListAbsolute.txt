@@ -1,0 +1,8 @@
+C:\Users\шадикьянр\source\repos\OnlineShop\OnlineShop.Domain\bin\Debug\netcoreapp3.0\OnlineShop.Domain.deps.json
+C:\Users\шадикьянр\source\repos\OnlineShop\OnlineShop.Domain\bin\Debug\netcoreapp3.0\OnlineShop.Domain.dll
+C:\Users\шадикьянр\source\repos\OnlineShop\OnlineShop.Domain\bin\Debug\netcoreapp3.0\OnlineShop.Domain.pdb
+C:\Users\шадикьянр\source\repos\OnlineShop\OnlineShop.Domain\obj\Debug\netcoreapp3.0\OnlineShop.Domain.csprojAssemblyReference.cache
+C:\Users\шадикьянр\source\repos\OnlineShop\OnlineShop.Domain\obj\Debug\netcoreapp3.0\OnlineShop.Domain.AssemblyInfoInputs.cache
+C:\Users\шадикьянр\source\repos\OnlineShop\OnlineShop.Domain\obj\Debug\netcoreapp3.0\OnlineShop.Domain.AssemblyInfo.cs
+C:\Users\шадикьянр\source\repos\OnlineShop\OnlineShop.Domain\obj\Debug\netcoreapp3.0\OnlineShop.Domain.dll
+C:\Users\шадикьянр\source\repos\OnlineShop\OnlineShop.Domain\obj\Debug\netcoreapp3.0\OnlineShop.Domain.pdb
