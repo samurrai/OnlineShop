@@ -276,9 +276,9 @@
       "frameworks": {
         "netcoreapp3.0": {
           "dependencies": {
-            "FcmSharp": {
+            "FirebaseAdmin": {
               "target": "Package",
-              "version": "[3.0.1, )"
+              "version": "[1.9.1, )"
             },
             "PayPal": {
               "target": "Package",

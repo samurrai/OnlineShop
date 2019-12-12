@@ -12,12 +12,14 @@ namespace OnlineShop.Web.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        public AuthController(UserService userService)
+        public AuthController(UserService userService, TwillioSmsService smsService)
         {
             UserService = userService;
+            SmsService = smsService;
         }
 
         public UserService UserService { get; }
+        public TwillioSmsService SmsService { get; }
 
         [HttpPost]
         public async Task<IActionResult> Authenticate(string phoneNumber)
@@ -52,5 +54,17 @@ namespace OnlineShop.Web.Controllers
 
             return Ok(new {token});
         }
+    }
+
+    [HttpPost]
+    public async Task<IActionResult> SendCode(string phoneNumber)
+    {
+        var code = new Random().Next(1000, 9999).ToString();
+
+        await SmsService.SendVerificationCode(phoneNumber, code);
+
+        await UserService.SaveCodeToUser(phoneNumber, code);
+
+        return Ok();
     }
 }
