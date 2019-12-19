@@ -56,15 +56,15 @@ namespace OnlineShop.Web.Controllers
         }
     }
 
-    [HttpPost]
-    public async Task<IActionResult> SendCode(string phoneNumber)
-    {
-        var code = new Random().Next(1000, 9999).ToString();
+    //[HttpPost]
+    //public async Task<IActionResult> SendCode(string phoneNumber)
+    //{
+    //    var code = new Random().Next(1000, 9999).ToString();
 
-        await SmsService.SendVerificationCode(phoneNumber, code);
+    //    await SmsService.SendVerificationCode(phoneNumber, code);
 
-        await UserService.SaveCodeToUser(phoneNumber, code);
+    //    await UserService.SaveCodeToUser(phoneNumber, code);
 
-        return Ok();
-    }
+    //    return Ok();
+    //}
 }
